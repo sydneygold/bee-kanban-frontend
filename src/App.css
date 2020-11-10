@@ -1,38 +1,59 @@
+body {
+  height: 500px;
+ 
+}
+
+
+
 .App {
-  text-align: center;
+  
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.title-banner {
+  width: 100%;
+  background-color: #fed93a;
   display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  justify-content: flex-start;
+  font-family: 'Ubuntu', sans-serif;
+  color: snow;
+  font-size: 35px;
+    padding: 1.5em;
+    height: 200px;
 }
 
-.App-link {
-  color: #61dafb;
+.board-box {
+  background-image: url('http://hddesktopwallpapers.in/wp-content/uploads/2015/11/field-flowers-nature.jpg');
+  background-repeat: no-repeat;
+  background-color:  #fed93a;
+  border-radius: 3%;
+  height: 32em;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.board-list {
+  display: flex;
+  justify-content: space-between;
+  /* flex-flow: row wrap; */
+  padding: 0em;
+  margin: 1em;
+  overflow-x: scroll;
+  height: 23em;
+  
 }
+
+.board {
+  background-color: snow;
+  border-radius: 3%;
+  box-shadow: 0 15px 15px -4px rgb(66, 61, 29);
+  height: 200px;
+  width: 200px;
+  list-style-type: none;
+  margin: 1em;
+}
+
+.checklist-container {
+  
+}
+
+.checkbox {
+  
+} 
